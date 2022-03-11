@@ -3,7 +3,8 @@ import About from "./Components/About/About";
 import Header from "./Components/Header/Header";
 
 
-import Main from "./Components/Main/Main";
+
+import Crew from "./Components/Main/Crew";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       
       <Header />
       <About />
-      <Main />
+      <Crew />
+      
     </>
   );
 }

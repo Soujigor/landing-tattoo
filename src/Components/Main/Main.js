@@ -22,7 +22,7 @@ const Main = () => {
           align="center"
           backgroundImage={tattoo}
           backgroundRepeat="no-repeat"
-          bgSize="contain"
+          bgSize="cover"
         ></GridItem>
         <GridItem rowSpan={1} colSpan={1} bg="green" centerContent>
           <Center> asasasasas </Center>
