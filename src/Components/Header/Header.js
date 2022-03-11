@@ -55,9 +55,6 @@ export default function Header() {
         Sobre o Estúdio
       </Button>
       <Button w="full" variant="ghost">
-        Serviços
-      </Button>
-      <Button w="full" variant="ghost">
         Residentes
       </Button>
       <Button w="full" variant="ghost">
@@ -102,9 +99,7 @@ export default function Header() {
                 <Button w="full" variant="ghost">
                   Sobre o Estúdio
                 </Button>
-                <Button w="full" variant="ghost">
-                  Serviços
-                </Button>
+
                 <Button w="full" variant="ghost">
                   Residentes
                 </Button>

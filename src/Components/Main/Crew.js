@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Box,
+  Center,
   chakra,
   Flex,
   SimpleGrid,
@@ -12,9 +13,13 @@ import tattoo from "../Images/luffy.jpg";
 
 export default function Crew() {
   return (
+    <Box>
+      <Center h="100px" color="black" fontSize="5xl">
+        Residentes 
+      </Center>
     <Flex
       w="full"
-      bg={useColorModeValue("#F9FAFB", "gray.600")}
+      bg="white"
       p={50}
       alignItems="center"
       justifyContent="center"
@@ -227,5 +232,6 @@ export default function Crew() {
         </Box>
       </SimpleGrid>
     </Flex>
+    </Box>
   );
 }
