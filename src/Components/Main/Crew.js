@@ -15,223 +15,228 @@ export default function Crew() {
   return (
     <Box>
       <Center h="100px" color="black" fontSize="5xl">
-        Residentes 
+        Residentes
       </Center>
-    <Flex
-      w="full"
-      bg="white"
-      p={50}
-      alignItems="center"
-      justifyContent="center"
-    >
-      <SimpleGrid
-        columns={[1, 2, 3]}
-        gap="24px"
-        mx="auto"
-        textAlign={["left", "center"]}
+      <Flex
+        w="full"
+        bg="white"
+        p={50}
+        alignItems="center"
+        justifyContent="center"
       >
-          
-        <Box
-          bg={useColorModeValue("white", "gray.800")}
-          px={4}
-          py={24}
-          shadow="base"
-          rounded="md"
-          backgroundImage={tattoo}
-          backgroundRepeat="no-repeat"
-          bgSize="cover"
+        <SimpleGrid
+          columns={[1, 2, 3]}
+          gap="24px"
+          mx="auto"
+          textAlign={["left", "center"]}
         >
-          <chakra.p
-            mb={1}
-            fontSize="3xl"
-            fontWeight="bold"
-            letterSpacing="wide"
-            textTransform="uppercase"
-            color="red"
-            marginBottom="10"
+          <Box
+            bg={useColorModeValue("white", "gray.800")}
+            px={4}
+            py={24}
+            shadow="base"
+            rounded="md"
+            backgroundImage={tattoo}
+            backgroundRepeat="no-repeat"
+            bgSize="cover"
+            backgroundPosition="center"
           >
-            Monkey D. Luffy
-          </chakra.p>
-          <Text
-            mb={2}
-            fontSize="lg"
-            fontWeight={["bold", "extrabold"]}
-            color="red"
-            lineHeight="tight"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
-            magna sit amet mauris lacinia ultricies. Donec molestie ante ut
-            sapien laoreet pretium.
-          </Text>
-        </Box>
+            <chakra.p
+              mb={1}
+              fontSize="3xl"
+              fontWeight="bold"
+              letterSpacing="wide"
+              textTransform="uppercase"
+              color="red"
+              marginBottom="10"
+            >
+              Monkey D. Luffy
+            </chakra.p>
+            <Text
+              mb={2}
+              fontSize="lg"
+              fontWeight={["bold", "extrabold"]}
+              color="red"
+              lineHeight="tight"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              vel magna sit amet mauris lacinia ultricies. Donec molestie ante
+              ut sapien laoreet pretium.
+            </Text>
+          </Box>
 
-        <Box
-          bg={useColorModeValue("white", "gray.800")}
-          px={4}
-          py={24}
-          shadow="base"
-          rounded="md"
-          backgroundImage={tattoo}
-          backgroundRepeat="no-repeat"
-          bgSize="cover"
-        >
-          <chakra.p
-            mb={1}
-            fontSize="3xl"
-            fontWeight="bold"
-            letterSpacing="wide"
-            textTransform="uppercase"
-            color="red"
-            marginBottom="10"
+          <Box
+            bg={useColorModeValue("white", "gray.800")}
+            px={4}
+            py={24}
+            shadow="base"
+            rounded="md"
+            backgroundImage={tattoo}
+            backgroundRepeat="no-repeat"
+            bgSize="cover"
+            backgroundPosition="center"
           >
-            Monkey D. Luffy
-          </chakra.p>
-          <Text
-            mb={2}
-            fontSize="lg"
-            fontWeight={["bold", "extrabold"]}
-            color="red"
-            lineHeight="tight"
+            <chakra.p
+              mb={1}
+              fontSize="3xl"
+              fontWeight="bold"
+              letterSpacing="wide"
+              textTransform="uppercase"
+              color="red"
+              marginBottom="10"
+            >
+              Monkey D. Luffy
+            </chakra.p>
+            <Text
+              mb={2}
+              fontSize="lg"
+              fontWeight={["bold", "extrabold"]}
+              color="red"
+              lineHeight="tight"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              vel magna sit amet mauris lacinia ultricies. Donec molestie ante
+              ut sapien laoreet pretium.
+            </Text>
+          </Box>
+          <Box
+            bg={useColorModeValue("white", "gray.800")}
+            px={4}
+            py={24}
+            shadow="base"
+            rounded="md"
+            backgroundImage={tattoo}
+            backgroundRepeat="no-repeat"
+            bgSize="cover"
+            backgroundPosition="center"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
-            magna sit amet mauris lacinia ultricies. Donec molestie ante ut
-            sapien laoreet pretium.
-          </Text>
-        </Box>
-        <Box
-          bg={useColorModeValue("white", "gray.800")}
-          px={4}
-          py={24}
-          shadow="base"
-          rounded="md"
-          backgroundImage={tattoo}
-          backgroundRepeat="no-repeat"
-          bgSize="cover"
-        >
-          <chakra.p
-            mb={1}
-            fontSize="3xl"
-            fontWeight="bold"
-            letterSpacing="wide"
-            textTransform="uppercase"
-            color="red"
-            marginBottom="10"
+            <chakra.p
+              mb={1}
+              fontSize="3xl"
+              fontWeight="bold"
+              letterSpacing="wide"
+              textTransform="uppercase"
+              color="red"
+              marginBottom="10"
+            >
+              Monkey D. Luffy
+            </chakra.p>
+            <Text
+              mb={2}
+              fontSize="lg"
+              fontWeight={["bold", "extrabold"]}
+              color="red"
+              lineHeight="tight"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              vel magna sit amet mauris lacinia ultricies. Donec molestie ante
+              ut sapien laoreet pretium.
+            </Text>
+          </Box>
+          <Box
+            bg={useColorModeValue("white", "gray.800")}
+            px={4}
+            py={24}
+            shadow="base"
+            rounded="md"
+            backgroundImage={tattoo}
+            backgroundRepeat="no-repeat"
+            bgSize="cover"
+            backgroundPosition="center"
           >
-            Monkey D. Luffy
-          </chakra.p>
-          <Text
-            mb={2}
-            fontSize="lg"
-            fontWeight={["bold", "extrabold"]}
-            color="red"
-            lineHeight="tight"
+            <chakra.p
+              mb={1}
+              fontSize="3xl"
+              fontWeight="bold"
+              letterSpacing="wide"
+              textTransform="uppercase"
+              color="red"
+              marginBottom="10"
+            >
+              Monkey D. Luffy
+            </chakra.p>
+            <Text
+              mb={2}
+              fontSize="lg"
+              fontWeight={["bold", "extrabold"]}
+              color="red"
+              lineHeight="tight"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              vel magna sit amet mauris lacinia ultricies. Donec molestie ante
+              ut sapien laoreet pretium.
+            </Text>
+          </Box>
+          <Box
+            bg={useColorModeValue("white", "gray.800")}
+            px={4}
+            py={24}
+            shadow="base"
+            rounded="md"
+            backgroundImage={tattoo}
+            backgroundRepeat="no-repeat"
+            bgSize="cover"
+            backgroundPosition="center"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
-            magna sit amet mauris lacinia ultricies. Donec molestie ante ut
-            sapien laoreet pretium.
-          </Text>
-        </Box>
-        <Box
-          bg={useColorModeValue("white", "gray.800")}
-          px={4}
-          py={24}
-          shadow="base"
-          rounded="md"
-          backgroundImage={tattoo}
-          backgroundRepeat="no-repeat"
-          bgSize="cover"
-        >
-          <chakra.p
-            mb={1}
-            fontSize="3xl"
-            fontWeight="bold"
-            letterSpacing="wide"
-            textTransform="uppercase"
-            color="red"
-            marginBottom="10"
+            <chakra.p
+              mb={1}
+              fontSize="3xl"
+              fontWeight="bold"
+              letterSpacing="wide"
+              textTransform="uppercase"
+              color="red"
+              marginBottom="10"
+            >
+              Monkey D. Luffy
+            </chakra.p>
+            <Text
+              mb={2}
+              fontSize="lg"
+              fontWeight={["bold", "extrabold"]}
+              color="red"
+              lineHeight="tight"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              vel magna sit amet mauris lacinia ultricies. Donec molestie ante
+              ut sapien laoreet pretium.
+            </Text>
+          </Box>
+          <Box
+            bg={useColorModeValue("white", "gray.800")}
+            px={4}
+            py={24}
+            shadow="base"
+            rounded="md"
+            backgroundImage={tattoo}
+            backgroundRepeat="no-repeat"
+            bgSize="cover"
+            backgroundPosition="center"
           >
-            Monkey D. Luffy
-          </chakra.p>
-          <Text
-            mb={2}
-            fontSize="lg"
-            fontWeight={["bold", "extrabold"]}
-            color="red"
-            lineHeight="tight"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
-            magna sit amet mauris lacinia ultricies. Donec molestie ante ut
-            sapien laoreet pretium.
-          </Text>
-        </Box>
-        <Box
-          bg={useColorModeValue("white", "gray.800")}
-          px={4}
-          py={24}
-          shadow="base"
-          rounded="md"
-          backgroundImage={tattoo}
-          backgroundRepeat="no-repeat"
-          bgSize="cover"
-        >
-          <chakra.p
-            mb={1}
-            fontSize="3xl"
-            fontWeight="bold"
-            letterSpacing="wide"
-            textTransform="uppercase"
-            color="red"
-            marginBottom="10"
-          >
-            Monkey D. Luffy
-          </chakra.p>
-          <Text
-            mb={2}
-            fontSize="lg"
-            fontWeight={["bold", "extrabold"]}
-            color="red"
-            lineHeight="tight"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
-            magna sit amet mauris lacinia ultricies. Donec molestie ante ut
-            sapien laoreet pretium.
-          </Text>
-        </Box>
-        <Box
-          bg={useColorModeValue("white", "gray.800")}
-          px={4}
-          py={24}
-          shadow="base"
-          rounded="md"
-          backgroundImage={tattoo}
-          backgroundRepeat="no-repeat"
-          bgSize="cover"
-        >
-          <chakra.p
-            mb={1}
-            fontSize="3xl"
-            fontWeight="bold"
-            letterSpacing="wide"
-            textTransform="uppercase"
-            color="red"
-            marginBottom="10"
-          >
-            Monkey D. Luffy
-          </chakra.p>
-          <Text
-            mb={2}
-            fontSize="lg"
-            fontWeight={["bold", "extrabold"]}
-            color="red"
-            lineHeight="tight"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel
-            magna sit amet mauris lacinia ultricies. Donec molestie ante ut
-            sapien laoreet pretium.
-          </Text>
-        </Box>
-      </SimpleGrid>
-    </Flex>
+            <chakra.p
+              mb={1}
+              fontSize="3xl"
+              fontWeight="bold"
+              letterSpacing="wide"
+              textTransform="uppercase"
+              color="red"
+              marginBottom="10"
+            >
+              Monkey D. Luffy
+            </chakra.p>
+            <Text
+              mb={2}
+              fontSize="lg"
+              fontWeight={["bold", "extrabold"]}
+              color="red"
+              lineHeight="tight"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              vel magna sit amet mauris lacinia ultricies. Donec molestie ante
+              ut sapien laoreet pretium.
+            </Text>
+          </Box>
+        </SimpleGrid>
+      </Flex>
     </Box>
   );
 }
